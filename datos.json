@@ -1,0 +1,13 @@
+{
+  "usuarios": [
+    {
+      "usuario": "usuario1",
+      "contrasena": "pass123",
+      "cuentas": [
+        { "id": "CBU001", "tipo": "Cuenta Corriente", "saldo": 50000 },
+        { "id": "CBU002", "tipo": "Caja de Ahorro", "saldo": 30000 }
+      ]
+    }
+  ],
+  "movimientos": []
+}

@@ -1,0 +1,59 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef2f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.screen input, .screen select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+.hidden {
+  display: none;
+}
+
+#accounts {
+  margin-bottom: 20px;
+}
+
+.account-card {
+  background: #f1f5f9;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
