@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Banking Sim</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="login-screen" class="screen">
+      <h2>Iniciar Sesión</h2>
+      <input id="user" placeholder="Usuario">
+      <input id="pass" type="password" placeholder="Contraseña">
+      <button id="btnLogin">Ingresar</button>
+    </div>
+
+    <div id="dashboard-screen" class="screen hidden">
+      <header>
+        <h2>Bienvenido al Home Banking</h2>
+        <button id="btnLogout">Cerrar Sesión</button>
+      </header>
+
+      <section id="accounts"></section>
+
+      <section id="transfer-section" class="hidden">
+        <h3>Realizar Transferencia</h3>
+        <select id="fromAccount"></select>
+        <select id="toAccount"></select>
+        <input id="amount" placeholder="Monto a transferir">
+        <button id="btnTransfer">Transferir</button>
+      </section>
+
+      <section id="history">
+        <h3>Historial de Movimientos</h3>
+        <ul id="movements-list"></ul>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
